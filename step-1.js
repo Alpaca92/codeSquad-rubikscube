@@ -28,7 +28,7 @@ function rearrangementString() {
         console.log(RESULT);
     }
     else {
-        let idxOfstring = Math.abs(+input[1]);
+        let idxOfstring = NUBMER_TO_MOVE;
         const REMAINDER = string.slice(0, idxOfstring);
         while (string.length !== idxOfstring) {
             rearrangedString.push(string[idxOfstring] );
